@@ -1,0 +1,281 @@
+a {
+    text-decoration: none;
+    color: white; }
+  
+  body {
+    margin: 0%; }
+  
+  ul {
+    list-style: none; }
+  
+  h1 {
+    font-size: 4em; }
+  
+  .color-nombre {
+    color: blueviolet; }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 10px black;
+    color: white;
+    background: blueviolet; }
+  
+  button:hover {
+    transition: all .5s;
+    background: #9d4aeb; }
+  
+  #hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: #7603e2;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://img.freepik.com/foto-gratis/diseno-web-online_53876-95309.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+    #hero h1 {
+      padding: 10%;
+      text-shadow: 3px 3px 3px  aqua; }
+  
+  #sobre-mi .contenedor {
+    text-align: center;
+    padding: 200px 12px; }
+  
+
+  
+  .pedila-ya h2 {
+    display: flex;
+    justify-content: center;
+    border: 5px outset blueviolet; }
+  
+  .pedila-ya .pedido {
+    display: flex;
+    justify-content: center; }
+  
+  footer {
+    margin: 5%; }
+    footer ul {
+      display: flex;
+      justify-content: space-around; }
+  
+  * {
+    box-sizing: border-box; }
+  
+
+  
+ 
+  #proyectos{
+    display: flex;
+    width: 100%;
+     justify-content: space-around;  
+     align-items: center;
+     height: 500px;
+     
+  }
+  
+  #proyectos img{
+    width: 70%;
+    height: 250px;
+    margin-top: 3%;
+  border: 1px solid blueviolet;
+  
+  }
+
+  .deporte{
+height: 800px;
+padding: 5px;
+padding-top: 2%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  }
+
+  .uñas{
+    height: 800px;
+    padding: 5px;
+    padding-top: 2%;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+      }
+  .personal{
+    height: 800px;
+    padding: 5px;
+    padding-top: 2%;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  }
+
+  .title-ejemplos{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-bottom: 3px solid #7603e2;
+    text-shadow:  2px 2px 5px blue;
+  }
+
+  .deporte h2{
+border-bottom: 2px solid blue;
+width: 100%;
+justify-content: center;
+align-items: center;
+display: flex;
+  }
+
+  .uñas h2{
+border-bottom: 2px solid blue;
+width: 100%;
+justify-content: center;
+align-items: center;
+display: flex;
+  }
+
+  .personal h2{
+    border-bottom: 2px solid blue;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+
+  #proyectos img:hover{
+    transform: scale(1.2);
+    transition: all .5s;
+  }
+
+
+  #myForm{
+    display: flex;
+    border: 2px solid blueviolet;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-top: 10%;
+    margin-left: 25%;
+    
+  }
+
+.body-form{
+background: rgb(8,13,247);
+background: linear-gradient(0deg, rgba(8,13,247,1) 5%, rgba(198,33,205,1) 31%);
+}
+
+  .cont-inp{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+input{
+  margin-top: 15px;
+ border: 2px solid blue;
+}
+
+#myForm h2{
+color: black;
+text-shadow: 3px 3px 5px blue;
+
+}
+
+
+@media (max-width:480px) {
+  
+
+  #proyectos{
+    display: flex;
+    width: 100%;
+     flex-direction: column;  
+   align-items: center;
+    height: 1000px;
+     
+  }
+  
+  #proyectos img{
+    width: 70%;
+    height: 250px;
+    margin-top: 3%;
+  border: 1px solid blueviolet;
+  
+  }
+
+  .deporte{
+height: 800px;
+padding: 5px;
+padding-top: 2%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  }
+
+  .uñas{
+    height: 800px;
+    padding: 5px;
+    padding-top: 2%;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+      }
+  .personal{
+    height: 800px;
+    padding: 5px;
+    padding-top: 2%;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+  }
+
+  .title-ejemplos{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-bottom: 3px solid #7603e2;
+    text-shadow:  2px 2px 5px blue;
+  }
+
+  .deporte h2{
+border-bottom: 2px solid blue;
+width: 100%;
+justify-content: center;
+align-items: center;
+display: flex;
+  }
+
+  .uñas h2{
+border-bottom: 2px solid blue;
+width: 100%;
+justify-content: center;
+align-items: center;
+display: flex;
+  }
+
+  .personal h2{
+    border-bottom: 2px solid blue;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+
+  #proyectos img:hover{
+    transform: scale(1.2);
+    transition: all .5s;
+  }
+
+}
