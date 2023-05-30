@@ -1,0 +1,19 @@
+{
+  "name": "matdevelopment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "codigo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matias-tello/matdevelopment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matias-tello/matdevelopment/issues"
+  },
+  "homepage": "https://github.com/matias-tello/matdevelopment#readme"
+}
